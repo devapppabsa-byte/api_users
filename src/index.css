@@ -1,0 +1,18 @@
+        /* Ball Clip Rotate */
+        .ball-clip-rotate {
+            width: 40px;
+            height: 40px;
+            border: 3px solid transparent;
+            border-top-color: var(--primary-color);
+            border-radius: 50%;
+            animation: ball-clip-rotate 1s linear infinite;
+        }
+        
+        @keyframes ball-clip-rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }

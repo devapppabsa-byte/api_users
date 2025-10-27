@@ -37,7 +37,7 @@ function Encuestas(){
 
     }, [])
 
-    if(loading) return <h1>Cargando</h1>
+    if(loading) return <h1 className='ball-clip-rotate'></h1>
     if(error) return <h1>Error</h1>
 
 

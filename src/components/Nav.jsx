@@ -7,8 +7,10 @@ function Nav(){
         <div className="container-fluid p-2" style={{backgroundColor:"#5476ac"}}>
             <div className="row">
 
+               
+
                 <div className="col-auto">
-                    <Link to='/' className='fw-bold text-white'>
+                    <Link to='/perfil_admin' className='fw-bold text-white'>
                         <i className='fa fa-home mx-2'></i>
                         Inicio
                     </Link>

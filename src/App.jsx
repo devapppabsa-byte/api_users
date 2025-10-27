@@ -5,13 +5,13 @@ import Clientes from './pages/Clientes'
 import Departamentos from './pages/Departamentos'
 import Encuestas from './pages/Encuestas'
 import Usuarios from './pages/Usuarios'
-import { useState } from "react"
+import LoginUsuario from "./pages/LoginUsuario"
+import LoginAdmin from './pages/LoginAdmin'
+
 
 
 
 function App(){
-
-
 
   return (
     <>
@@ -21,7 +21,9 @@ function App(){
 
           <Routes>
             
-            <Route path="/" element={ <Inicio/> } />
+            <Route path="/" element = {<LoginUsuario/>} />
+            <Route path="/login_admin" element = {<LoginAdmin/>} />
+            <Route path="/perfil_admin" element={ <Inicio/> } />
             <Route path="/clientes" element={ <Clientes/> } />
             <Route path="/departamentos" element={ <Departamentos/> } />
             <Route path="/encuestas" element={ <Encuestas/> }/>
