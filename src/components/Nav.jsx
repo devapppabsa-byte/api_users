@@ -34,6 +34,20 @@ function Nav(){
                           Usuarios
                     </Link>
                 </div>
+                
+                <div className="col-auto">
+                    <Link to='/encuestas' className='fw-bold text-white'>
+                        <i className='fa fa-clipboard mx-2'> </i>
+                        Encuestas
+                    </Link>
+                </div>
+
+                <div className="col-auto">
+                    <Link to='/evaluaciones' className='fw-bold text-white'>
+                        <i className='fa fa-clipboard-user'></i>
+                        Evaluaciones
+                    </Link>
+                </div>
 
 
             </div>

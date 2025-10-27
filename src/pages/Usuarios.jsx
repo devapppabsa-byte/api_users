@@ -46,7 +46,9 @@ function Usuarios(){
             <div className="container-fluid bg-primary">
                 <div className="row py-3">
                     <div className="col-auto">
-                        <h1 className="text-white">Usuarios </h1>
+                        <h1 className="text-white">
+                            Usuarios 
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -54,7 +56,15 @@ function Usuarios(){
             <Nav/>
 
             <div className="container-fluid">
-                <div className="row mt-4 justify-content-center">
+                <div className="row mt-4">
+                    <div className="col-12 text-center">
+                        <h2>
+                            <i className='fa fa-users'></i>
+                            Usuarios
+                        </h2>
+                    </div>
+                </div>
+                <div className="row  justify-content-center">
                     <div className="col-11 table-responsive">
                         <table className="table align-middle mb-0 bg-white shadow shadow-sm border">
                         <thead className="bg-light">
